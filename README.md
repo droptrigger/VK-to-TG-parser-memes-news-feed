@@ -71,7 +71,7 @@ pip install aiosqlite
 </div>
 
 ### 4. Из ссылки копируем все с `access_token=` по `&expires_in...`. И записываем это куда-нибудь.
-### 5. Переходим в https://t.me/BotFather и создаем бота, отключаем ему режим `Privacy mode. Это нужно для того, чтобы бот реагировал н сообщения.
+### 5. Переходим в https://t.me/BotFather и создаем бота, отключаем ему режим `Privacy mode`. Это нужно для того, чтобы бот реагировал н сообщения.
 <div align="center">
 <img src="https://github.com/user-attachments/assets/0e0a9373-2e2f-4986-8230-d1c011a05f4c" width=60% height=80%>
 </div>
