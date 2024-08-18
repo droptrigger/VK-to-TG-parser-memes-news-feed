@@ -1,4 +1,4 @@
-TOKEN_TG = ''
-base = ''
+TOKEN_TG = 'YOUR TOKEN'
+base = 'memkid_base.db'
 
-TOKEN_VK = ''
+TOKEN_VK = 'YOUR TOKEN'

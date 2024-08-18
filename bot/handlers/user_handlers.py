@@ -327,7 +327,8 @@ async def general(message: Message):
                     if len(groups) == 0:
                         await message.reply("Вы не подписаны ни на одну группу")
                     else:
-                        await message.reply("Ляляля!", reply_markup=await lgs(groups, message.chat.id))
+                        await message.reply("Вот группы, на которые вы подписаны!",
+                                            reply_markup=await lgs(groups, message.chat.id))
 
                 if message.text.startswith("add "):
                     link = message.text.split(" ")[1]

@@ -47,7 +47,12 @@ async def check_post(group_id: int, user_id: int):
             answer = await get_follow(user_id, group_id)
             if answer is None:
                 print(f"Пользователь tg_id: {user_id} подписался на группу: {group_id}")
-                await follow_group(user_id, group_id)
+                answer = await follow_group(user_id, group_id)
+                if answer is False:
+                    count = await get_count(group_id)
+                    name = await get_group_name(group_id)
+                    await add_follow_group(user_id, group_id, count, name)
+
                 return "already"
             else:
                 print(f"Пользователь tg_id: {user_id} уже подписан на группу: {group_id}")

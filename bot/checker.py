@@ -128,7 +128,7 @@ async def check():
                         os.mkdir(f'../memes/{group[1]}')
 
                     if len(photos) != 0:
-                        if len(post_info[0]['text']) < 100:
+                        if len(post_info[0]['text']) < 100:  # минимальная фильтрация от рекламы
                             await download_photos(photos, group[1], group[2])
                             await send_memes(group[1], group[2], group[3])
                 except Exception as e:
