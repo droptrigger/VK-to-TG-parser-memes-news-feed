@@ -87,3 +87,6 @@ pip install aiosqlite
 
 ## ✅ Well done! Теперь все должно работать
 
+<div align="center">
+![image](https://github.com/user-attachments/assets/cbec2ec9-189e-43b3-a2f9-85444ebb04b7)
+</div>
