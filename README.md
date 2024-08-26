@@ -88,5 +88,5 @@ pip install aiosqlite
 ## ✅ Well done! Теперь все должно работать
 
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/cbec2ec9-189e-43b3-a2f9-85444ebb04b7" width=70% height=80%>
+  <img src="https://github.com/user-attachments/assets/e6b5c233-5cf2-488a-a599-e391379744ce" width=70% height=80%>
 </div>
